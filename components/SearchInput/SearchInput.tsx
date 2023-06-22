@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 // Image
-import TMDBLogo from '../../public/tmdb-logo.svg';
+import TMDBLogo from '@/public/tmdb-logo.svg';
 
 type Props = {
   setQuery: React.Dispatch<React.SetStateAction<string>>;

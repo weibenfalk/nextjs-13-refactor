@@ -1,11 +1,11 @@
 import Image from 'next/image';
 // Helpers
-import { calcTime, convertMoney } from '../../helpers';
+import { calcTime, convertMoney } from '@/helpers';
 // Components
 import Thumb from '../Thumb/Thumb';
 import Pill from '../Pill/Pill';
 // Types
-import { Crew, Credits } from '../../api/types';
+import { Crew, Credits } from '@/types';
 
 type Props = {
   creditsPromise: Promise<Credits>;

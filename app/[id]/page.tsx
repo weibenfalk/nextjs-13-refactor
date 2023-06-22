@@ -1,13 +1,13 @@
 import React from 'react';
-import { movieUrl, creditsUrl, IMAGE_BASE_URL, BACKDROP_SIZE, POSTER_SIZE } from '../../config';
+import { movieUrl, creditsUrl, IMAGE_BASE_URL, BACKDROP_SIZE, POSTER_SIZE } from '@/config';
 // Components
-import Header from '../../components/Header/Header';
-import Breadcrumb from '../../components/Breadcrumb/Breadcrumb';
-import MovieInfo from '../../components/MovieInfo/MovieInfo';
-import Actors from '../../components/Actors/Actors';
-import Spinner from '../../components/Spinner/Spinner';
+import Header from '@/components/Header/Header';
+import Breadcrumb from '@/components/Breadcrumb/Breadcrumb';
+import MovieInfo from '@/components/MovieInfo/MovieInfo';
+import Actors from '@/components/Actors/Actors';
+import Spinner from '@/components/Spinner/Spinner';
 // Types
-import type { Movie, Credits } from '../../api/types';
+import type { Movie, Credits } from '@/types';
 
 type Props = {
   params: {

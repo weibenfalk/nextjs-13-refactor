@@ -3,8 +3,8 @@ import Image from 'next/image';
 // Components
 import SearchInput from '../SearchInput/SearchInput';
 // Images
-import RMDBLogo from '../../public/rmdb-logo.svg';
-import RMDBLogoSmall from '../../public/rmdb-logo-small.svg';
+import RMDBLogo from '@/public/rmdb-logo.svg';
+import RMDBLogoSmall from '@/public/rmdb-logo-small.svg';
 
 type Props = {
   setQuery?: React.Dispatch<React.SetStateAction<string>>;
