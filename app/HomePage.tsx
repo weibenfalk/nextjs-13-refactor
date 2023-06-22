@@ -3,15 +3,15 @@
 import React from 'react';
 import Link from 'next/link';
 // Fetch hook
-import { useFetchMovies } from '../api/fetchHooks';
+import { useFetchMovies } from '@/app/api/fetchHooks';
 // Config
-import { IMAGE_BASE_URL, BACKDROP_SIZE, POSTER_SIZE } from '../config';
+import { IMAGE_BASE_URL, BACKDROP_SIZE, POSTER_SIZE } from '@/config';
 // Components
-import Header from '../components/Header/Header';
-import Hero from '../components/Hero/Hero';
-import Grid from '../components/Grid/Grid';
-import Card from '../components/Card/Card';
-import Spinner from '../components/Spinner/Spinner';
+import Header from '@/components/Header/Header';
+import Hero from '@/components/Hero/Hero';
+import Grid from '@/components/Grid/Grid';
+import Card from '@/components/Card/Card';
+import Spinner from '@/components/Spinner/Spinner';
 
 const HomePage = () => {
   const [query, setQuery] = React.useState('');

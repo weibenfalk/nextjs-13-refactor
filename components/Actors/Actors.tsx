@@ -1,10 +1,10 @@
 // Urls
-import { IMAGE_BASE_URL, POSTER_SIZE } from '../../config';
+import { IMAGE_BASE_URL, POSTER_SIZE } from '@/config';
 // Components
-import Grid from '../../components/Grid/Grid';
-import Card from '../../components/Card/Card';
+import Grid from '@/components/Grid/Grid';
+import Card from '@/components/Card/Card';
 // Types
-import type { Credits } from '../../api/types';
+import type { Credits } from '@/types';
 
 type Props = {
   creditsPromise: Promise<Credits>;
